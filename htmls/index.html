@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assests/css/common.css">
+    <link rel="stylesheet" href="/assests/css/header.css">
+    <link rel="stylesheet" href="/assests/css/footer.css">
+    <link rel="stylesheet" href="/assests/css/body.css">
+    <title>Sindesi 3D - Impresión 3D</title>
+</head>
+<body>
+
+    <!-- HEADER - navbar -->
+    <nav>
+        <div class="logo">
+            <img src="/assests/img/logo.png" alt="Logo"> 
+            <p>Sindesi</p>
+        </div>
+        <ul class="nav-bottons">
+            <li><a>Inicio</a></li>
+            <li><a>Nosotros</a></li>
+            <li><a>Productos</a></li>
+            <li><a class="shop"><img src="/assests/img/tdesign_shop.png" alt="Shopping"></a></li>
+            <li><a class="search"><img src="/assests/img/material-symbols_search.png" alt="Search"></a></li>
+        </ul>
+    </nav>
+
+    <!-- CARTEL NEGRO -->
+    <div class="carousel">
+        <div class="text-up">
+            <h1>Piezas 3D de alta calidad</h1>
+            <p>Somos Sindesi 3D y nos encargaremos de satisfacer tus necesidades en la búsqueda de piezas de alta calidad en material PLA.</p>
+            <a href="#" class=""><button>MIRA NUESTRO CATÁLOGO</button></a>
+        </div>
+        <img src="/assests/img/soporte fondo bl 01.jpg" alt="Imagen de soporte para celular">
+        
+    </div>
+
+    <!-- CARDS AND FILTERS -->
+    <div class="full-body">
+        <h2>Catálogo de productos</h2>
+
+        <div class="catalogo-productos">
+            <div class="filters">
+                <div class="text-up-filters">
+                    <h3>Filtros</h3>
+                    <p>Limpiar</p>
+                </div>
+                <div class="linea"></div>
+                <div class="text-filters">
+                    <a href="#" class="button-filter"><button>Todo</button></a>
+                    <li>Soporte celular</li>
+                    <li>Soporte tablet</li>
+                    <li>Soporte notebook</li>
+                    <li>Soporte auriculares</li>
+                    <li>Soporte joystick</li>
+                    <li>Articulados</li>
+                    <li>Figuras</li>
+                    <li>Llaveros</li>
+                    <li>Tarjetas</li>
+                    <li>Utilidades</li>
+                </div>
+            </div>
+    
+            <div class="cards-catalogo">
+                <div class="filters-category">
+                    <input type="text" id="productName" name="productName" placeholder="Nombre">
+                    <input type="text" id="productColor" name="productColor" placeholder="Color">
+                    <input type="text" id="productCategory" name="productCategory" placeholder="Categoria">
+                    <button type="button-search" class="button-search" onclick="filterProducts()">
+                        <img src="/assests/img/material-symbols_search.png" alt="Ícono de búsqueda" width="16" height="16">
+                    </button>
+                </div>
+                <div class="productos">
+                    <img src="" alt="img-producto">
+                    <img src="" alt="img-producto">
+                    <img src="" alt="img-producto">
+                    <img src="" alt="img-producto">
+                    <img src="" alt="img-producto">
+                    <img src="" alt="img-producto">
+                    <img src="" alt="img-producto">
+                    <img src="" alt="img-producto">
+                    <img src="" alt="img-producto">
+                    <img src="" alt="img-producto">
+                    <img src="" alt="img-producto">
+                    <img src="" alt="img-producto">
+                </div>
+                <div class="pagination">
+                    <img src="/assests/img/material-symbols_first-page.png" alt="left-button">
+                    <p>1</p>
+                    <img src="/assests/img/ic_baseline-last-page.png" alt="right-button">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- INSTAGRAM AND WHATSAPP -->
+
+    <div class="cuadro-publicidad">
+        <h3 class="texto-publicidad">Mira más en profundidad nuestros productos</h3>
+        <button class="ver-mas">Ver más</button>
+    </div>
+
+    <div class="cuadros">
+        <div class="cuadro-instagram">
+            <p>Visita nuestro Instagram oficial</p>
+            <div class="imgs-instagram">
+                <iframe src="https://www.instagram.com/xxxxxxxxxxx/embed" width="120" height="120"></iframe>
+                <iframe src="https://www.instagram.com/xxxxxxxxxxx/embed" width="120" height="120"></iframe>
+                <iframe src="https://www.instagram.com/xxxxxxxxxxx/embed" width="120" height="120"></iframe>
+                <iframe src="https://www.instagram.com/xxxxxxxxxxx/embed" width="120" height="120"></iframe>
+                <iframe src="https://www.instagram.com/xxxxxxxxxxx/embed" width="120" height="120"></iframe>
+                <iframe src="https://www.instagram.com/xxxxxxxxxxx/embed" width="120" height="120"></iframe>
+            </div>
+            <p>@sindesi_3d</p>
+        </div>
+    
+        <div class="cuadro-whatsapp">
+            <p>Ponte en contacto con nosotros para más información</p>
+            <a href="whatsapp://send?text=Hola,%20estoy%20interesado%20en%20tu%20producto" target="_blank">
+                <button class="boton-whatsapp"><img src="/assests/img/logos_whatsapp-icon.png" alt="Icono de WhatsApp" width="130" height="130"></button>
+              </a>
+            <p>5493412575126</p>
+            <p>¡Estamos disponibles las 24 hs del día!</p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="name-sindesi">
+            <h3>Sindesi</h3>
+        </div>
+        <div class="contacts">
+            <h3>CONTACTOS</h3>
+            <ul class="group-footer">
+                <li>+54 9 341 257-5126</li>
+                <li>sindesiimpresiones3d@gmail.com</li>
+                <li class="location">Rosario, Argentina</li>
+            </ul>
+            <div class="social">
+                <a href="#"><img src="/assests/img/instagram.png" alt="logo-instagram"></a>
+                <a href="#"><img src="/assests/img/facebook.png" alt="logo-facebook"></a>
+                <a href="#"><img src="/assests/img/ic_baseline-whatsapp.png" alt="logo-whatsapp"></a>
+            </div>
+        </div>
+        <div class="info">
+            <h3>INFORMACIÓN</h3>
+            <ul class="information">
+                <li><a href="#">Modelos 3D</a></li>
+                <li><a href="#">Envios</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Términos y Condiciones</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="text-simple">
+        <h3>sindesi_impresiones - 2024 © Derechos reservados</h3>
+    </div>
+
+    <script src="/assests/js/styles.js"></script>
+</body>
+</html>

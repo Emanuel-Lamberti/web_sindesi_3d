@@ -1,0 +1,222 @@
+.carousel {
+    background-color: black;
+    display: flex;
+}
+
+.carousel h1 {
+    color: white;    
+    margin-top: 9rem;
+    font-size: 64px;
+}
+
+.carousel p {
+    color: #B3B3B3;    
+    font-size: 24px;
+    margin-top: -2rem;
+    margin-bottom: 4.5rem;
+}
+
+.carousel img {
+    width: 750px;
+    height: 804px;
+}
+
+button {
+    color: #9C9C9C;
+    height: 67px;
+    width: 300px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: none; 
+}
+
+.catalogo-productos {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    margin-left: 8rem;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.filters {
+    background-color: black;
+    width: 352px;
+    height: 1292px;
+    margin-left: 8rem;
+}
+
+.text-up {
+    margin-left: 10rem;
+    justify-content: space-around;
+    margin-right: 10rem;
+}
+
+.text-up-filters {
+    display: flex;
+    justify-content: space-around;
+}
+
+.catalogo-productos .filters .text-up-filters h3 {
+    color: white;
+    font-size: 32px;
+}
+
+.catalogo-productos .filters .text-up-filters p {
+    color: white;
+    font-size: 20px;
+    padding-top: 1.45rem;
+}
+
+.linea {
+    width: 286px;
+    height: 1px;
+    background-color: white;
+    margin-left: 2rem;
+    margin-top: -1.5rem;
+}
+
+.button-filter button {
+    color: #9C9C9C;
+    height: 60px;
+    width: 118px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text-filters li {
+    color: white;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.filters-category {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    background-color: #D9D9D9;
+    color: #9C9C9C;
+    font-size: 20px;
+    padding-left: 1rem;
+    width: 186px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button-search {
+    background-color: #D9D9D9;
+    color: #9C9C9C;
+    width: 56px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-search img {
+    height: 40px;
+    width: 40px;
+    color: #9C9C9C;
+}
+
+.productos {
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;*/
+}
+
+.pagination {
+    width: 240px;
+    height: 52px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.pagination p {
+    color: black;
+    font-size: 24px;
+}
+
+.pagination img {
+    width: 54px;
+    height: 54px;
+}
+
+.cuadro-publicidad {
+    width: 1277px;
+    height: 278px;
+    background-image: url('/assests/img/01-01\ 1.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 9.5rem;
+}
+
+.cuadro-publicidad .texto-publicidad h3 {
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 10px 8px 12px rgb(0, 0, 0);
+}
+
+.cuadro-publicidad .ver-mas {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 240px;
+    height: 52px;
+}
+
+.cuadros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cuadro-instagram, .cuadro-whatsapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 613px;
+    height: 704px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+
+.cuadro-instagram, .cuadro-whatsapp p {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.cuadro-instagram .imgs-instagram {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+
+.full-body {
+    
+}

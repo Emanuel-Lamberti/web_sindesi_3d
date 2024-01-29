@@ -1,0 +1,57 @@
+footer {
+    background-color: black;
+    display: flex;
+    align-items: baseline;
+}
+
+.name-sindesi h3 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 3rem;
+    margin-left: 8rem;
+}
+
+.contacts, .info {
+    margin-left: 11rem;
+    padding: 0;
+}
+
+.contacts, .info  h3 {
+    color: white;
+}
+
+.group-footer, .information {
+    margin: 0;
+    padding: 0;
+}
+
+.contacts li {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts .location {
+    margin-top: 3rem;
+}
+
+.contacts .social {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.contacts img {
+    margin-right: 3rem;
+}
+
+.info a {
+    color: white;
+    text-decoration: none;
+    margin-left: -3rem; 
+}
+
+.info {
+    padding-left: 10rem;
+}

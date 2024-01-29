@@ -1,0 +1,44 @@
+nav {
+    background-color: rgb(255, 255, 255);
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    width: 70px;
+}
+
+.logo p {
+    font-family:'Poppins';
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.nav-bottons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-left: 3rem;
+}
+  
+.content {
+    padding: 20px;
+}
